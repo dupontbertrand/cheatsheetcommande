@@ -6,7 +6,7 @@ body {
 
     background-size: 100%;
 
-    color:white;
+    color:grey;
 
     font-size: 2em;
 
@@ -14,12 +14,7 @@ body {
 
 }
 
-p {
-  background-color: lightgrey;
-  width:auto;
-  padding: 10px;
-  border:solid 2px black;
-}
+
 
 h1 {
 font-size: 3em;
