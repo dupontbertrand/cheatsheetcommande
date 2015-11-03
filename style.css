@@ -1,6 +1,6 @@
 body {
 
-    background-image: url("http://paulciano.org/avox/wp-content/uploads/2014/02/Unix_Reborn_by_The_man_who_writes.png");
+    background-image: url("http://paulciano.org/avox/wp-content/uploads/2014/04/unix-th-back-de-jueves.jpg.png");
 
     background-attachment: fixed;
 
@@ -14,12 +14,13 @@ body {
 
 }
 
-
+li{margin-top:10px;}
 
 h1 {
 font-size: 3em;
 font-weight: bold;
 text-align: center;
+color: white;
 
 }
 
