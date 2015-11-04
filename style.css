@@ -1,6 +1,6 @@
 body {
 
-    background-color: white;
+    background-image: url("http://spainaflame.com/assets/images/background(1).jpg");
     background-attachment: fixed;
 
     background-size: 100%;
@@ -39,7 +39,7 @@ border-width: 5px;
     @media (max-width: 1024px) {
 
 body {
-      background-color: white;
+      background-image: url("http://spainaflame.com/assets/images/background(1).jpg");
       background-attachment: fixed;
 
       background-size: 100%;
@@ -59,7 +59,7 @@ body {
   font-weight: bold;
   text-align: center;
   color: black  ;
-font-family: monospace; 
+font-family: monospace;
   }
 
   strong {
