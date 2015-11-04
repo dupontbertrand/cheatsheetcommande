@@ -1,12 +1,11 @@
 body {
 
-    background-image: url("http://paulciano.org/avox/wp-content/uploads/2014/04/unix-th-back-de-jueves.jpg.png");
-
+    background-color: white;
     background-attachment: fixed;
 
     background-size: 100%;
 
-    color:grey;
+    color:black;
 
     font-size: 2em;
 
@@ -20,10 +19,55 @@ h1 {
 font-size: 3em;
 font-weight: bold;
 text-align: center;
-color: white;
+color: black  ;
 
 }
 
 strong {
   font-weight: bold;
 }
+
+span {
+background-color: brown;
+border-radius: 10px ;
+border-width: 5px;
+}
+/*Mobile-friendly*/
+
+
+    @media (max-width: 1024px) {
+
+body {
+      background-color: white;
+      background-attachment: fixed;
+
+      background-size: 100%;
+
+      color:black;
+
+      font-size: 2.8em;
+
+      font-weight: bold;
+
+  }
+
+  li{margin-top:10px;}
+
+  h1 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: black  ;
+
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  span {
+  background-color: brown;
+  border-radius: 10px ;
+      border-width: 5px;
+    }
+      }
