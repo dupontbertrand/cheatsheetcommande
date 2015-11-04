@@ -20,6 +20,7 @@ font-size: 3em;
 font-weight: bold;
 text-align: center;
 color: black  ;
+font-family: monospace;
 
 }
 
@@ -58,7 +59,7 @@ body {
   font-weight: bold;
   text-align: center;
   color: black  ;
-
+font-family: monospace; 
   }
 
   strong {
