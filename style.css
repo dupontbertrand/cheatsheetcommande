@@ -52,13 +52,14 @@ body {
 
   }
 
-  li{margin-top:10px;}
+  li{margin-top:10px;
+}
 
   h1 {
   font-size: 3em;
   font-weight: bold;
   text-align: center;
-  color: black  ;
+  color: black;
 font-family: monospace;
   }
 
