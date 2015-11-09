@@ -9,12 +9,15 @@ body {
 li {
   margin-top: 10px;
 }
-h1 {
+header {
   font-size: 3em;
   font-weight: bold;
   text-align: center;
   color: black;
   font-family: monospace;
+}
+header a:visited {
+  color: black;
 }
 strong {
   font-weight: bold;
@@ -42,10 +45,7 @@ code {
     text-align: left;
     margin-left: -1.4em;
   }
-  ul:first-child {
-    margin-top: 4em;
-  }
-  h1 {
+  header {
     font-size: 1.7em;
     font-weight: bold;
     text-align: center;
