@@ -1,75 +1,62 @@
 body {
-
-    background-image: url("http://spainaflame.com/assets/images/background(1).jpg");
-    background-attachment: fixed;
-
-    background-size: 100%;
-
-    color:black;
-
-    font-size: 2em;
-
-    font-weight: bold;
-
-}
-
-li{margin-top:10px;}
-
-h1 {
-font-size: 3em;
-font-weight: bold;
-text-align: center;
-color: black  ;
-font-family: monospace;
-
-}
-
-strong {
+  background-image: url("http://spainaflame.com/assets/images/background(1).jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  color: black;
+  font-size: 2em;
   font-weight: bold;
 }
-
-span {
-background-color: brown;
-border-radius: 10px ;
-border-width: 5px;
+li {
+  margin-top: 10px;
 }
-/*Mobile-friendly*/
-
-
-    @media (max-width: 1024px) {
-
-body {
-      background-image: url("http://spainaflame.com/assets/images/background(1).jpg");
-      background-attachment: fixed;
-
-      background-size: 100%;
-
-      color:black;
-
-      font-size: 2.8em;
-
-      font-weight: bold;
-
-  }
-
-  li{margin-top:10px;
-}
-
-  h1 {
+h1 {
   font-size: 3em;
   font-weight: bold;
   text-align: center;
   color: black;
-font-family: monospace;
+  font-family: monospace;
+}
+strong {
+  font-weight: bold;
+}
+code {
+  background-color: brown;
+  border-radius: 10px;
+  border-width: 5px;
+  padding: 0.1em;
+}
+
+/*Mobile-friendly*/
+
+@media (max-width: 1024px) {
+  body {
+    background-image: url("http://spainaflame.com/assets/images/background(1).jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  li {
+    margin-bottom: 0.8em;
+    text-align: left;
+    margin-left: -1.4em;
   }
 
+  ul :first-child {margin-top: 4em;}
+  h1 {
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-family: monospace;
+  }
   strong {
     font-weight: bold;
   }
-
-  span {
-  background-color: brown;
-  border-radius: 10px ;
-      border-width: 5px;
-    }
-      }
+  code {
+    background-color: brown;
+    border-radius: 10px;
+    border-width: 5px;
+  }
+}
